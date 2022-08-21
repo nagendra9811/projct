@@ -7,7 +7,7 @@ class Department(models.Model):
 
 class Role(models.Model):
     name=models.CharField(max_length=100, null=False)
-
+ 
 class Employee(models.Model):
     first_name=models.CharField(max_length=100,null=False)
     last_name=models.CharField(max_length=100)
